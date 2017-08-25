@@ -1,0 +1,7 @@
+fixtures:
+    symlinks:
+        gocd: "#{source_dir}"
+    forge_modules:
+        apt:
+            repo: puppetlabs/apt
+            ref: 4.1.0

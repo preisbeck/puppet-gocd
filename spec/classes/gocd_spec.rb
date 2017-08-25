@@ -6,9 +6,6 @@ describe 'gocd' do
             let(:facts) do
                 facts
             end
-            it { is_expected.to compile }
-            it { is_expected.to contain_class('gocd::server') }
-            #it { is_expected.to contain_service('go-server').with(ensure: 'running') }
         end
     end
 end

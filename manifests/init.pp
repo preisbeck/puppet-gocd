@@ -34,15 +34,9 @@
 #
 # Authors
 # -------
-#
-# Author Name <author@domain.com>
-#
-# Copyright
-# ---------
-#
-# Copyright 2017 Your name here, unless otherwise noted.
-#
+# Phillip Reisbeck <p.reisbeck@gmx.de>
+
 class gocd {
-
-
+    class{ 'gocd::config' : }
+    -> class{ 'gocd::server' : }
 }
